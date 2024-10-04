@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>hon_bk2_temperature</name>
+  <name>spartan_ros2_package</name>
   <version>0.0.0</version>
   <description>Hőmérséklet riasztás: Temperature Generator Node: szimulált hőmérsékleti adatokat generál és publikál egy topicon.
 Alert Node: feliratkozik a hőmérsékleti adatokra, és riasztást küld egy másik topicon, ha a hőmérséklet meghalad egy megadott küszöbértéket.</description>
