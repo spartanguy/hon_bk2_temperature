@@ -3,16 +3,14 @@
 <package format="3">
   <name>hon_bk2_temperature</name>
   <version>0.0.0</version>
-  <description>Egyszerű hőmérséklet-küszöb riasztás: Temperature Generator Node: szimulált hőmérsékleti adatokat generál és publikál egy topicon. Alert Node: feliratkozik a hőmérsékleti adatokra, és riasztást küld egy másik topicon, ha a hőmérséklet meghalad egy megadott küszöbértéket.</description>
+  <description>Temperature Generator and Alert Nodes</description>
   <maintainer email="hobot2002@gmail.com">he</maintainer>
   <license>GNU General Public License v3.0</license>
 
-  <test_depend>ament_copyright</test_depend>
-  <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
-  <test_depend>python3-pytest</test_depend>
-  <exec_depend>ros2launch</exec_depend>
-  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
   <export>
     <build_type>ament_python</build_type>
   </export>
