@@ -4,7 +4,6 @@ from std_msgs.msg import Float32
 import random
 
 class TemperatureGenerator(Node):
-
     def __init__(self):
         super().__init__('temperature_generator')
         self.publisher_ = self.create_publisher(Float32, 'temperature', 10)
