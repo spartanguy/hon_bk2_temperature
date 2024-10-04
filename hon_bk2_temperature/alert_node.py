@@ -4,7 +4,7 @@ from std_msgs.msg import Float32
 
 class Alertnode(Node):
     def __init__(self):
-        super.__init__('alert_node')
+        super().__init__('alert_node')
         self.subscription = self.create_subscription(Float32, 'temperature', self.check_temperature, 10)
         self.publisher = self.create_publisher(str,'temperature_alert', 10)
 

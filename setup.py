@@ -18,7 +18,7 @@ setup(
     zip_safe=True,
     maintainer='Honfi Botond',
     maintainer_email='hobot2002@gmail.com',
-    description='Egyszerű hőmérséklet-küszöb riasztás: Temperature Generator Node: szimulált hőmérsékleti adatokat generál és publikál egy topicon. Alert Node: feliratkozik a hőmérsékleti adatokra, és riasztást küld egy másik topicon, ha a hőmérséklet meghalad egy megadott küszöbértéket.',
+    description='Temperature Generator and Alert Nodes',
     license='GNU General Public License v3.0',
     tests_require=['pytest'],
     entry_points={
