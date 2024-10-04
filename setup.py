@@ -23,7 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'control_vehicle = hon_bk2_temperature.control_vehicle:main',
+            'temperature_generator = hon_bk2_temperature.temperature_generator:main',
+            'alert_node = hon_bk2_temperature.alert_node:main',
         ],
     },
 )
