@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 from glob import glob
 import os
 
-package_name = 'spartan_ros2_package'
+package_name = 'hon_bk2_temperature'
 
 setup(
     name=package_name,
@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'control_vehicle = spartan_ros2_package.control_vehicle:main',
+            # 'control_vehicle = hon_bk2_temperature.control_vehicle:main',
         ],
     },
 )
