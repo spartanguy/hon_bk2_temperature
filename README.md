@@ -29,4 +29,4 @@ source ~/ros2_ws/install/setup.bash
 </details>
 
 ``` r
-ros2 launch hon_bk2_temperature launch_example1.launch.py
+ros2 launch hon_bk2_temperature temperature_alert_launch.py
